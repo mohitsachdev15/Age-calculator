@@ -1,9 +1,0 @@
-import datetime as dt
-birthdate_input = input("Enter your birth date in YYYY-MM-DD format: ")
-birthdate = dt.datetime.strptime(birthdate_input, "%Y-%m-%d")             # strptime function is used to convert string to datetime object
-age = dt.datetime.today().year - birthdate.year                          # datetime.to.day = 16/11/2023    # birthdate.year = 15/07/1999
-print(f"Your age is: {age} years old.")
-
-
-
-
